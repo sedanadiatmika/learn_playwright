@@ -1,0 +1,16 @@
+{
+  "name": "learn_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/WebAPIPart1.spec.js --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "allure-playwright": "^2.0.0-beta.25"
+  }
+}
